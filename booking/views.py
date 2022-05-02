@@ -9,5 +9,5 @@ def menu(request):
     return render(request, 'menu.html')
 
 
-def about(request):
-    return render(request, 'about.html')
+def bookings(request):
+    return render(request, 'bookings.html')
