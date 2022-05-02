@@ -1,0 +1,243 @@
+body {
+    background-image: url("../media/pexels-cottonbro-7322134.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+    padding-bottom: -1%;
+}
+
+body, .menu {
+    background-image: url("../media/drink-7068737_1280.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+    padding-bottom: -1%;
+}
+
+.brand {
+    font-family: Lato, sans-serif;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #dcdce4;
+}
+
+.red-o {
+    color: #E84610;
+}
+
+.thin {
+    font-weight: 300;
+}
+
+.light-bg {
+    background-color: #fff;
+}
+
+.dark-bg {
+    background-color: #333a41;
+}
+
+.main-bg {
+    background-color: #F9FAFC;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-flash {
+    position: absolute;
+    bottom: 5%;
+    min-width: 30%;
+    left: -2px;
+    background-color: #23BBBB;
+}
+
+.author {
+    color: white;
+    margin: 4px;
+    text-transform: uppercase;
+}
+
+.masthead {
+    margin-top: 10px;
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+    height: 33vh;
+    width: 100%;
+}
+
+.masthead-text {
+    background-color: #c5cacf;
+    color: white;
+    position: relative;
+}
+
+.masthead-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.masthead-image:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 90%;
+    height: 100%;
+    width: 150%;
+    background: #bdc1c5;
+    -webkit-transform: skew(15deg);
+    -moz-transform: skew(15deg);
+    transform: skew(15deg);
+    z-index: 100;
+}
+
+.post-link {
+    text-decoration: none;
+    color: #d3d8dd;
+}
+
+.post-link:hover,
+.page-link {
+    color: #E84610;
+}
+
+.post-title {
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.post-subtitle {
+    margin-left: 5%;
+    color: lightgray;
+}
+
+.btn-signup {
+    background-color: #23BBBB;
+    color: #fff;
+}
+
+.btn-signup:hover,
+.btn-signup:active {
+    background-color: #fff;
+    color: #23BBBB;
+}
+
+.link {
+    color: #23BBBB;
+    text-decoration: none;
+}
+
+.link:hover,
+.link:active {
+    color: #93979b;
+    text-decoration: underline;
+}
+
+.btn-like {
+    color: #E84610;
+    border: none;
+    background: transparent;
+}
+
+.btn-like:hover,
+.btn-like:active {
+    color: #E84610;
+    background: transparent;
+    border: none;
+}
+
+.text-white {
+    color: whitesmoke;
+}
+
+.navbar-text {
+    text-align: center;
+}
+
+#right-about {
+    color: whitesmoke;
+    z-index: 1;
+    padding-top: 4%;
+    padding-left: 30%;
+}
+
+#center-about {
+    color: whitesmoke;
+    z-index: 1;
+    padding-top: 4%;
+    padding-left: 15%;
+}
+
+#left-about {
+    color: whitesmoke;
+    z-index: 1;
+    padding-top: 6%;
+    padding-left: 6%;
+}
+
+.footer {
+    text-align: right;
+}
+
+.row {
+    margin-left: -20%;
+    margin-bottom: 6%;
+}
+
+.content-part-3 { 
+    padding-top: 0%;
+    padding-left: 25%;
+    display: inline-block;
+}
+
+.content-part-3-inner { 
+    padding:10px 0px;
+}
+
+.content-part-3-right-h4 { 
+    font-weight:600; 
+    color:rgb(168, 157, 157); 
+    padding:0px;
+}
+
+.margin_5 { 
+    margin:5px 0px; 
+    float:right;}
+
+.margin_p3 { 
+    margin:10px 0px 5px;
+}
+.price {
+    color:rgb(207, 188, 188);
+    padding:5px 0px; 
+    font-weight:bold; 
+    font-size:15px;
+}
+
+.green { 
+    color:#cccfca;
+    font-weight:bold;
+    font-size:16px;
+    }
+
+.descriptions {
+    color: whitesmoke;
+}
+
+@media only screen and (min-width:320px) and (max-width:480px){
+	.img{ width:100%;}
+	}
+
+@media only screen and (min-width:600px) and (max-width:768px){
+	.img{ width:96%; border-radius:3px;}
+	.content-part-3-right-h4{ font-weight:600; color:#000; padding:5px 0px 0px;}
+	}
