@@ -1,11 +1,37 @@
 {% extends "base.html" %}
 {% block content %}
 
-<h1>Want to visit Us?</h1>
-<form action="/display/" method="post"> {% csrf_token %}
-    {{form.as_p}}
-    {{form.non_field_errors}}
-<input type="submit" value="Submit" name="GuestInfo"/>
-</form>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 mt-3 offset-md-2">
+            <h1>Want to visit Us?</h1>
+            <p>Please make a reservation.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 mt-3 offset-md-2">
+            <form id="booking" action="/bookings/" method="post"> {% csrf_token %}
+              <div class="elem-group">
+                <label for="Guests">Your Name</label>
+                <input type="text" id="Guests" name="Guests" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+              </div>
+              <div class="elem-group">
+                <label for="Email">Your E-mail</label>
+                <input type="email" id="Email" name="Email" placeholder="john.doe@email.com" required>
+              </div>
+              <div class="elem-group inlined">
+                <label for="Guests">Number of Guests</label>
+                <input type="number" id="Guests" name="Guests" placeholder="1" min="1" required>
+              </div>
+              <div class="elem-group inlined">
+                <label for="Day">Reservation Date</label>
+                <input type="date" id="Day" name="Day" min="2022-01-01" max="2022-12-31" required>
+              </div>
+              <hr>
+              <button type="submit">Book Your Reservation</button>
+            </form>
+        </div>
+    </div>
+</div>
 
 {% endblock content %}

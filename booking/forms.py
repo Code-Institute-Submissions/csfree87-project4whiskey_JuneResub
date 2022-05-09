@@ -9,7 +9,7 @@ class UserModelForm(ModelForm):
     class Meta:
         model = GuestInfo
         fields = ['BookingName', 'Guests', 'Day', 'Email']
-        
+
     def clean_BookingName(self): 
         BookingName = self.cleaned_data.get('BookingName')
 
