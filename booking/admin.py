@@ -1,6 +1,5 @@
 from django.contrib import admin
 from booking.models import GuestInfo
-from booking.forms import UserModelForm
 
 # Register your models here.
 

@@ -10,21 +10,21 @@
     </div>
     <div class="row">
         <div class="col-md-8 mt-3 offset-md-2">
-            <form id="booking" action="/bookings/" method="post"> {% csrf_token %}
+            <form id="GuestInfo" action="/confirmation/" method="POST"> {% csrf_token %}
               <div class="elem-group">
-                <label for="Guests">Your Name</label>
-                <input type="text" id="Guests" name="Guests" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required>
+                <label for="BookingName">Reservation Name: {{ BookingName }}</label>
+                <input type="text" id="Guests" name="Guests" placeholder="Your Name" pattern=[A-Z\sa-z]{3,20} required>
               </div>
               <div class="elem-group">
-                <label for="Email">Your E-mail</label>
-                <input type="email" id="Email" name="Email" placeholder="john.doe@email.com" required>
+                <label for="Email">Email:{{ Email }}</label>
+                <input type="email" id="Email" name="Email" placeholder="youremail@email.com" required>
               </div>
               <div class="elem-group inlined">
-                <label for="Guests">Number of Guests</label>
+                <label for="Guests">Number of Guests: {{ Guests }}</label>
                 <input type="number" id="Guests" name="Guests" placeholder="1" min="1" required>
               </div>
               <div class="elem-group inlined">
-                <label for="Day">Reservation Date</label>
+                <label for="Day">Date: {{ DAY }}</label>
                 <input type="date" id="Day" name="Day" min="2022-01-01" max="2022-12-31" required>
               </div>
               <hr>

@@ -21,6 +21,10 @@ def bookings(request):
 
     return render(request, 'bookings.html')
 
+def confirmation(request):
+
+    return render(request, 'confirmation.html')
+
 
 def contact(request):
 
@@ -40,7 +44,7 @@ def GuestInfo(request):
             form.save()
             users = GuestInfo.objects.all()
 
-            return render(request, 'booking.html', {'users': users})
+            return render(request, 'confirmation.html', {'users': users})
 
 
     else:
