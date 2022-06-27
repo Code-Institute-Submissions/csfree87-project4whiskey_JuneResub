@@ -21,6 +21,10 @@ p {
     font-size: large;
 }
 
+#toggler {
+    background-color: antiquewhite;
+}
+
 .menu {
     background-size: 100%;
     background-repeat: no-repeat;
@@ -220,9 +224,12 @@ p {
 
 @media only screen and (min-width:320px) and (max-width:480px){
 	.img{ width:100%;}
+    .content-part-3-right-h4{text-align: center;}
+    .descriptions, h1{color: rgb(241, 208, 192);font-size: larger;}
 	}
+
 
 @media only screen and (min-width:600px) and (max-width:768px){
 	.img{ width:96%; border-radius:3px;}
-	.content-part-3-right-h4{ font-weight:600; color:rgb(207, 188, 188); padding:5px 0px 0px;}
+	.content-part-3-right-h4{ font-weight:600; color:rgb(207, 188, 188); padding:5px 0px 0px; text-align: center;}
 	}
