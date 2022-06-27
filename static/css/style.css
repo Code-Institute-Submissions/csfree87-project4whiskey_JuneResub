@@ -7,14 +7,25 @@ body {
     padding-bottom: -1%;
 }
 
+body.menu {
+    background-image: url("../media/drink-7068737_1280.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -1;
+    padding-bottom: -1%;
+}
+
 h1 {
-    color:rgb(207, 188, 188);
+    color:rgb(241, 208, 192);
 }
 
 p {
-    color:rgb(207, 188, 188);
+    color:rgb(241, 208, 192);
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 25px;
 }
-
 
 #navcolor {
     color: rgb(211, 186, 137);
@@ -25,19 +36,19 @@ p {
     background-color: antiquewhite;
 }
 
-.menu {
-    background-size: 100%;
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: -1;
-    padding-bottom: -1%;
+.list {
+    font-weight: 300;
+    color: rgb(241, 208, 192);
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: justify;
 }
 
 .brand {
     font-family: Lato, sans-serif;
     font-size: 1.4rem;
     font-weight: 700;
-    color: rgb(200, 184, 184);
+    color: rgb(241, 208, 192);
 }
 
 .red-o {
@@ -49,15 +60,15 @@ p {
 }
 
 .light-bg {
-    background-color: rgb(207, 188, 188);
+    background-color: rgb(241, 208, 192);
 }
 
 .dark-bg {
-    background-color: rgb(207, 188, 188);
+    background-color: rgb(241, 208, 192);
 }
 
 .main-bg {
-    background-color: rgb(207, 188, 188);
+    background-color: rgb(241, 208, 192);
 }
 
 .card {
@@ -85,8 +96,8 @@ p {
 }
 
 .masthead-text {
+    color: rgb(241, 208, 192); 
     background-color: rgb(207, 188, 188)acf;
-    color: rgb(207, 188, 188);
     position: relative;
 }
 
@@ -128,7 +139,6 @@ p {
     margin-left: 5%;
     color: rgb(207, 188, 188);
 }
-
 .btn-signup {
     background-color: #d5d8d8;
     color: rgb(207, 188, 188);
@@ -151,27 +161,22 @@ p {
     text-decoration: underline;
 }
 
-.text-white {
-    color: rgb(207, 188, 188);
-}
-
-.navbar-text {
-    text-align: center;
-    color: rgb(207, 188, 188);
-}
-
-.footer {
-    text-align: right;
-    color: rgb(207, 188, 188);
-}
-
 .row {
-    color:rgb(207, 188, 188);
-    text-align: center;
+    color:rgb(241, 208, 192);
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+.row-2 {
+    color:rgb(241, 208, 192);
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 30px;
 }
 
 .login {
-    color:rgb(207, 188, 188);
+    color:rgb(241, 208, 192);
 }
 
 .content-part-3 { 
@@ -185,38 +190,42 @@ p {
 
 .content-part-3-right-h4 { 
     font-weight:600; 
-    color:rgb(168, 157, 157); 
+    color:rgb(241, 208, 192); 
     padding:0px;
 }
 
 .descriptions {
-    color: rgb(200, 184, 184);
-    padding-left: 20px;
-    padding-top: 25px;
+    color: rgb(241, 208, 192);
+    padding-left: 40px;
+    padding-top: 60px;
 }
 
 .instructions {
-    color: rgb(200, 184, 184);
+    color: rgb(241, 208, 192);
     padding-left: 20px;
     padding-bottom: 10px;
     text-align: center;
 }
 
 .home {
-    color:rgb(207, 188, 188);
-    padding-top: 50px;
-    padding-left: 30px;
+    color: rgb(241, 208, 192);
+    padding-top: 70px;
+    padding-left: 50px;
+}
+
+.container {
+    padding-top: 40px;
 }
 
 #reg {
-    background-color: rgb(222, 206, 206);
+    background-color: rgb(241, 208, 192);
     opacity: .8;
     border-radius: 10%;
     border: 2px solid black;
 }
 
 .confirmation {
-    color:rgb(207, 188, 188);
+    color:rgb(241, 208, 192);
     padding-top: 50px;
     padding-left: 30px;
 }
@@ -231,5 +240,5 @@ p {
 
 @media only screen and (min-width:600px) and (max-width:768px){
 	.img{ width:96%; border-radius:3px;}
-	.content-part-3-right-h4{ font-weight:600; color:rgb(207, 188, 188); padding:5px 0px 0px; text-align: center;}
+	.content-part-3-right-h4{ font-weight:600; color:rgb(241, 208, 192); padding:5px 0px 0px; text-align: center;}
 	}

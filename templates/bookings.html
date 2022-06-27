@@ -12,7 +12,8 @@
     </div>
     <div class="row">
         <div class="col-md-8 mt-3 offset-md-2">
-            <form id="GuestInfo" action="/confirmation/" method="POST"> {% csrf_token %}
+            <form id="GuestInfo" action="/confirmation/" method="POST"> 
+              {% csrf_token %}
               <div class="elem-group">
                 <label for="BookingName">{{ BookingName }}</label>
                 <input id="reg" type="text" id="Guests" name="Guests" placeholder="Reservation name" pattern=[A-Z\sa-z]{3,20} required>
