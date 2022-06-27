@@ -7,6 +7,14 @@ body {
     padding-bottom: -1%;
 }
 
+h1 {
+    color:rgb(207, 188, 188);
+}
+
+p {
+    color:rgb(207, 188, 188);
+}
+
 .menu {
     background-image: url("../media/drink.jpg");
     background-size: 100%;
@@ -52,14 +60,6 @@ body {
     position: relative;
 }
 
-.image-flash {
-    position: absolute;
-    bottom: 5%;
-    min-width: 30%;
-    left: -2px;
-    background-color: #23BBBB;
-}
-
 .author {
     color: rgb(207, 188, 188);
     margin: 4px;
@@ -76,7 +76,7 @@ body {
 }
 
 .masthead-text {
-    background-color: #c5cacf;
+    background-color: rgb(207, 188, 188)acf;
     color: rgb(207, 188, 188);
     position: relative;
 }
@@ -121,38 +121,25 @@ body {
 }
 
 .btn-signup {
-    background-color: #23BBBB;
+    background-color: #d5d8d8;
     color: rgb(207, 188, 188);
 }
 
 .btn-signup:hover,
 .btn-signup:active {
     background-color: rgb(207, 188, 188);
-    color: #23BBBB;
+    color: #bec6c6;
 }
 
 .link {
-    color: #23BBBB;
+    color: #eff9f9;
     text-decoration: none;
 }
 
 .link:hover,
 .link:active {
-    color: #93979b;
+    color: rgb(207, 188, 188);
     text-decoration: underline;
-}
-
-.btn-like {
-    color: #E84610;
-    border: none;
-    background: transparent;
-}
-
-.btn-like:hover,
-.btn-like:active {
-    color: #E84610;
-    background: transparent;
-    border: none;
 }
 
 .text-white {
@@ -170,8 +157,12 @@ body {
 }
 
 .row {
-    color: rgb(207, 188, 188);
+    color:rgb(207, 188, 188);
     text-align: center;
+}
+
+.login {
+    color:rgb(207, 188, 188);
 }
 
 .content-part-3 { 
@@ -209,7 +200,7 @@ body {
 }
 
 .input {
-    background-color: rgb(207, 188, 188);
+    background-color: rgb(222, 206, 206);
     opacity: 0.5;
     border-radius: 10%;
     border: 2px solid black;
@@ -220,6 +211,7 @@ body {
     padding-top: 50px;
     padding-left: 30px;
 }
+
 
 @media only screen and (min-width:320px) and (max-width:480px){
 	.img{ width:100%;}
