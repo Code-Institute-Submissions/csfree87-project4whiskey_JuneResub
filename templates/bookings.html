@@ -12,7 +12,7 @@
         <div class="col-md-8 mt-3 offset-md-2">
             <form id="GuestInfo" action="/confirmation/" method="POST"> {% csrf_token %}
               <div class="elem-group">
-                <label for="BookingName">Reservation Name: {{ BookingName }}</label>
+                <label for="BookingName">Name: {{ BookingName }}</label>
                 <input type="text" id="Guests" name="Guests" placeholder="Your Name" pattern=[A-Z\sa-z]{3,20} required>
               </div>
               <div class="elem-group">
@@ -20,7 +20,7 @@
                 <input type="email" id="Email" name="Email" placeholder="youremail@email.com" required>
               </div>
               <div class="elem-group inlined">
-                <label for="Guests">Number of Guests: {{ Guests }}</label>
+                <label for="Guests">Guests: {{ Guests }}</label>
                 <input type="number" id="Guests" name="Guests" placeholder="1" min="1" required>
               </div>
               <div class="elem-group inlined">
