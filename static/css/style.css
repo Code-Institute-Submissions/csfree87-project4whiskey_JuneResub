@@ -32,15 +32,15 @@ body {
 }
 
 .light-bg {
-    background-color: #fff;
+    background-color: rgb(207, 188, 188);
 }
 
 .dark-bg {
-    background-color: #333a41;
+    background-color: rgb(207, 188, 188);
 }
 
 .main-bg {
-    background-color: #F9FAFC;
+    background-color: rgb(207, 188, 188);
 }
 
 .card {
@@ -61,7 +61,7 @@ body {
 }
 
 .author {
-    color: white;
+    color: rgb(207, 188, 188);
     margin: 4px;
     text-transform: uppercase;
 }
@@ -77,7 +77,7 @@ body {
 
 .masthead-text {
     background-color: #c5cacf;
-    color: white;
+    color: rgb(207, 188, 188);
     position: relative;
 }
 
@@ -117,17 +117,17 @@ body {
 
 .post-subtitle {
     margin-left: 5%;
-    color: lightgray;
+    color: rgb(207, 188, 188);
 }
 
 .btn-signup {
     background-color: #23BBBB;
-    color: #fff;
+    color: rgb(207, 188, 188);
 }
 
 .btn-signup:hover,
 .btn-signup:active {
-    background-color: #fff;
+    background-color: rgb(207, 188, 188);
     color: #23BBBB;
 }
 
@@ -156,28 +156,27 @@ body {
 }
 
 .text-white {
-    color: whitesmoke;
+    color: rgb(207, 188, 188);
 }
 
 .navbar-text {
     text-align: center;
+    color: rgb(207, 188, 188);
 }
 
 .footer {
     text-align: right;
+    color: rgb(207, 188, 188);
 }
 
 .row {
-    margin-left: -20%;
-    margin-bottom: 6%;
-    opacity:0.6;
-    color: whitesmoke;
+    color: rgb(207, 188, 188);
+    text-align: center;
 }
 
 .content-part-3 { 
     padding-top: 0%;
     padding-left: 25%;
-    display: inline-block;
 }
 
 .content-part-3-inner { 
@@ -190,35 +189,36 @@ body {
     padding:0px;
 }
 
-.margin_5 { 
-    margin:5px 0px; 
-    float:right;}
-
-.margin_p3 { 
-    margin:10px 0px 5px;
-}
-.price {
-    color:rgb(207, 188, 188);
-    padding:5px 0px; 
-    font-weight:bold; 
-    font-size:15px;
-}
-
-.green { 
-    color:#cccfca;
-    font-weight:bold;
-    font-size:16px;
-    }
-
 .descriptions {
     color: rgb(200, 184, 184);
     padding-left: 20px;
+    padding-top: 25px;
+}
+
+.instructions {
+    color: rgb(200, 184, 184);
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 
 .home {
     color:rgb(207, 188, 188);
     padding-top: 50px;
-    padding-left: 20px;
+    padding-left: 30px;
+}
+
+.input {
+    background-color: rgb(207, 188, 188);
+    opacity: 0.5;
+    border-radius: 10%;
+    border: 2px solid black;
+}
+
+.confirmation {
+    color:rgb(207, 188, 188);
+    padding-top: 50px;
+    padding-left: 30px;
 }
 
 @media only screen and (min-width:320px) and (max-width:480px){
@@ -227,5 +227,5 @@ body {
 
 @media only screen and (min-width:600px) and (max-width:768px){
 	.img{ width:96%; border-radius:3px;}
-	.content-part-3-right-h4{ font-weight:600; color:#000; padding:5px 0px 0px;}
+	.content-part-3-right-h4{ font-weight:600; color:rgb(207, 188, 188); padding:5px 0px 0px;}
 	}
