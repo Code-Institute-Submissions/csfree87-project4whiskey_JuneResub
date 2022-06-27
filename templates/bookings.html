@@ -15,22 +15,22 @@
             <form id="GuestInfo" action="/confirmation/" method="POST"> {% csrf_token %}
               <div class="elem-group">
                 <label for="BookingName">{{ BookingName }}</label>
-                <input class="input" type="text" id="Guests" name="Guests" placeholder="Reservation name" pattern=[A-Z\sa-z]{3,20} required>
+                <input id="reg" type="text" id="Guests" name="Guests" placeholder="Reservation name" pattern=[A-Z\sa-z]{3,20} required>
               </div>
               <div class="elem-group">
                 <label for="Email">{{ Email }}</label>
-                <input class="input" type="email" id="Email" name="Email" placeholder="youremail@email.com" required>
+                <input id="reg" type="email" id="Email" name="Email" placeholder="youremail@email.com" required>
               </div>
               <div class="elem-group inlined">
                 <label for="Guests">{{ Guests }}</label>
-                <input class="input" type="number" id="Guests" name="Guests" placeholder="Number of Guests" min="1" required>
+                <input id="reg" type="number" id="Guests" name="Guests" placeholder="Number of Guests" min="1" required>
               </div>
               <div class="elem-group inlined">
                 <label for="Day">{{ DAY }}</label>
-                <input class="input" type="date" id="Day" name="Day" min="2022-01-01" max="2024-12-31" required>
+                <input id="reg" type="date" id="Day" name="Day" min="2022-01-01" max="2024-12-31" required>
               </div>
               <hr>
-              <button class="input" type="submit">Book Your Reservation</button>
+              <button id="reg" type="submit">Book Your Reservation</button>
             </form>
         </div>
     </div>
