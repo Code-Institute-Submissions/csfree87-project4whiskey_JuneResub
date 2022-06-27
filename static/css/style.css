@@ -24,7 +24,11 @@ p {
     color:rgb(241, 208, 192);
     text-align: left;
     padding-left: 30px;
-    padding-top: 25px;
+    padding-top: 10px;
+}
+
+footer {
+    padding-top: 20px;
 }
 
 #navcolor {
@@ -173,6 +177,11 @@ p {
     text-align: left;
     padding-top: 20px;
     padding-left: 30px;
+}
+
+.row-3 {
+    color:rgb(241, 208, 192);
+    text-align: center;
 }
 
 .login {
